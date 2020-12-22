@@ -21,8 +21,12 @@
 
 <body>
     <!-- header section start  -->
+<<<<<<< HEAD
     <div class="container">
         <!-- container start -->
+=======
+    <div class="container"> <!-- container start -->
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
         <header>
             <!-- upper bar start  -->
             <div class="row h-100 justify-content-between" id="upper-bar">
@@ -314,6 +318,7 @@
                                     <i class="fa fa-play-circle fa-rotate-180"></i>
                                 </a>
                             </div>
+<<<<<<< HEAD
                         </div>
                     </div>
                 </div>
@@ -326,6 +331,20 @@
                                 </a>
                             </div>
                         </div>
+=======
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4 mt-md-2">
+                    <div class="bg-light-gray project">
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="#">
+                                    <img src="assets\pictures\news-3.png" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
                         <div class="row">
                             <div class="col-12">
                                 <div class="container">
@@ -357,12 +376,16 @@
                         </div>
                         <img src="assets\pictures\overview.png" alt="" class="img-fluid">
                         <div class="container py-3">
+<<<<<<< HEAD
                             <p>انشىء اتحاد بلديات منطقة جزين في قضاء جزين محافظة لبنان الجنوبي بناءً على اقتراح وزير
                                 الداخلية والبلديات وبعد موافقة مجلس الوزراء في جلسته المنعقدة بتاريخ 15/12/2005 بموجب
                                 المرسوم 15998. ويضم الاتحاد 28 بلدية ويشمل نطاقه البلديات التالية: جزين - عين مجدلين،
                                 بتدين اللقش، بكاسين، بنواتي، الحمصية، حيطورة، روم، ريمات وشقاديف، زحلتي، سنيا، صباح،
                                 صفاريه، صيدون، عاريه، قطين - حيداب، قيتولي، كرخا، كفرجره، كفرفالوس، لبعا، المجيدل،
                                 مشموشة، وادي جزين، جرنايا، عازور، الميدان، المكنونية، انان.</p>
+=======
+                            <p>انشىء اتحاد بلديات منطقة جزين في قضاء جزين محافظة لبنان الجنوبي بناءً على اقتراح وزير الداخلية والبلديات وبعد موافقة مجلس الوزراء في جلسته المنعقدة بتاريخ 15/12/2005 بموجب المرسوم 15998. ويضم الاتحاد 28 بلدية ويشمل نطاقه البلديات التالية: جزين - عين مجدلين، بتدين اللقش، بكاسين، بنواتي، الحمصية، حيطورة، روم، ريمات وشقاديف، زحلتي، سنيا، صباح، صفاريه، صيدون، عاريه، قطين - حيداب، قيتولي، كرخا، كفرجره، كفرفالوس، لبعا، المجيدل، مشموشة، وادي جزين، جرنايا، عازور، الميدان، المكنونية، انان.</p>
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
                         </div>
                     </div>
                 </div>
@@ -375,6 +398,7 @@
                         </div>
                         <div class="container py-3">
                             <p>الرؤية: <br>
+<<<<<<< HEAD
                                 جزين منطقة نموذجية مشهورة ببيئتها المحمية حيث يتسنى لابنائها التمتع بمستوى عيش كريم في
                                 مختلف القرى المتحدة لخير المنطقة وتتميز كل قرية منها بحيوية ومتعة العيش لابنائها
                                 وزوارها. <br><br>
@@ -386,6 +410,12 @@
                                 والمستثمرين وتساهم في خلق فرص عمل لأبناء القرى وذلك ضمن اطار عمل مؤسساتي منهجي يرتكز على
                                 العمل بشغف ومصداقية ويشكل المرجع الاول الذي يقود متحداً عملية التنمية ضمن خطة متكاملة
                                 ومستدامة.</p>
+=======
+                                جزين منطقة نموذجية مشهورة ببيئتها المحمية حيث يتسنى لابنائها التمتع بمستوى عيش كريم في مختلف القرى المتحدة لخير المنطقة وتتميز كل قرية منها بحيوية ومتعة العيش لابنائها وزوارها. <br><br>
+
+                                الرسالة: <br>
+                                العمل على تنمية مختلف القطاعات الحياتية لقرى منطقة جزين مع المحافظة على الارث الطبيعي والمعماري بما يراعي شروط ومعايير بيئية عالية الجودة والعمل على تنظيم التمدد العمراني وحماية المساحات الخضراء وتأمين شروط للنمو الاقتصادي تسمح باطلاق مشاريع تستقطب الزوار والمستثمرين وتساهم في خلق فرص عمل لأبناء القرى وذلك ضمن اطار عمل مؤسساتي منهجي يرتكز على العمل بشغف ومصداقية ويشكل المرجع الاول الذي يقود متحداً عملية التنمية ضمن خطة متكاملة ومستدامة.</p>
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
                         </div>
                     </div>
                 </div>
@@ -400,7 +430,11 @@
     </div><!-- container end -->
     <!-- img gallery section start  -->
     <style>
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
     </style>
     <section id="img-gallery" class="bg-light-gray mt-md-5 mt-2 p-md-5 p-2">
         <div class="container">
@@ -420,6 +454,7 @@
         <section id="subscribe-sec" class="mt-md-5 mt-2">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
+<<<<<<< HEAD
                     <div class="bg-light-gray h-100 p-md-4 p-2">
                         <h3>تقارير خاصة</h3>
                         <div class="row">
@@ -446,6 +481,34 @@
                 </div>
                 <div class="col-lg-4 col-md-6">
                     <div class="bg-light-gray h-100 p-md-4 p-2">
+=======
+                   <div class="bg-light-gray h-100 p-md-4 p-2">
+                        <h3>تقارير خاصة</h3>
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <a href="#" class="d-block my-md-4 my-2">بيت الغابة في بكاسين</a>  
+                                <a href="#" class="d-block my-md-4 my-2">حرفوش: العمل البلدي انمائي جزين في ورشة
+                                    انماء مستمرة</a>  
+                                <a href="#" class="d-block my-md-4 my-2">شركة النصر حلم 50 سنة</a>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                   <div class="bg-light-gray h-100 p-md-4 p-2">
+                        <h3>النشرة الشهرية</h3>
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <a href="#" class="d-block my-md-4 my-2">تشرين الثاني 2011</a>  
+                                <a href="#" class="d-block my-md-4 my-2">تشرين الاول 2011</a>  
+                                <a href="#" class="d-block my-md-4 my-2">ايلول 2011</a>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                   <div class="bg-light-gray h-100 p-md-4 p-2">
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
                         <h3>إنضم إلى النشرة الألكترونية</h3>
                         <div class="container">
                             <form action="">
@@ -462,6 +525,7 @@
                                     <input type="submit" class="btn btn-primary" value="إرسال">
                                 </div>
                             </form>
+<<<<<<< HEAD
                         </div>
                     </div>
                 </div>
@@ -504,7 +568,24 @@
                                     </span> العنوان : جزين -
                                     لبنان</a>
                             </div>
+=======
+>>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
                         </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="contact-info" class="bg-light-gray mt-md-5 mt-2 py-md-4 py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6648.735080330903!2d35.37598012687687!3d33.56980522603886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ef005e44bcdb3%3A0x31a240c3310deb5e!2sMido&#39;s%20Sandwiches!5e0!3m2!1sen!2slb!4v1608623899864!5m2!1sen!2slb" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <h3>إتّصل بنا</h3>
+                        <a href="#" class="d-block"><i class="fas fa-phone-circle"></i></a>
                     </div>
                 </div>
             </div>
