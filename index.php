@@ -21,12 +21,7 @@
 
 <body>
     <!-- header section start  -->
-<<<<<<< HEAD
-    <div class="container">
-        <!-- container start -->
-=======
     <div class="container"> <!-- container start -->
->>>>>>> 23e8f3576377f72dfb89ba37fa1251f8e576e6b9
         <header>
             <!-- upper bar start  -->
             <div class="row h-100 justify-content-between" id="upper-bar">
@@ -511,23 +506,9 @@
                    </div>
                 </div>
             </div>
-        </section>
-    </div>
-    <section id="contact-info" class="bg-light-gray mt-md-5 mt-2 py-md-4 py-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6648.735080330903!2d35.37598012687687!3d33.56980522603886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ef005e44bcdb3%3A0x31a240c3310deb5e!2sMido&#39;s%20Sandwiches!5e0!3m2!1sen!2slb!4v1608623899864!5m2!1sen!2slb" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-                <div class="col-md-6">
-                    <div class="container">
-                        <h3>إتّصل بنا</h3>
-                        <a href="#" class="d-block"><i class="fas fa-phone-circle"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
+    
 </body>
 
 </html>
