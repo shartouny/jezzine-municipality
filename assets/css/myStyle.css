@@ -26,6 +26,12 @@
     font-weight: normal;
     font-style: normal
 }
+@font-face {
+    font-family: 'bshekari';
+    src: url('../fonts/Bshekari.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
 
 
 /* general styles start  */
@@ -146,7 +152,42 @@ header nav {
     background-color: #e6e7e8;
 }
 
+header nav .dropdown-toggle {
+    position: relative;
+}
 
+header nav .dropdown-toggle::after {
+    display: none;
+    /* margin-left: .255em; */
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid #00a2d8;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    position: absolute;
+    bottom: -0.45rem;
+    left: 50%;
+    margin-left: -.3em;
+}
+
+header nav .dropdown {
+    position: initial;
+}
+
+header nav .nav-item.active .dropdown-toggle:after {
+    display: block;
+}
+
+.nav-item.active a{
+    border-bottom: 2px solid #00a2d8;
+}
+.dropdown .dropdown-menu .nav-link{
+    border: none;
+}
+.dropdown .dropdown-menu .nav-link.active{
+    color: #00a2d8;
+}
 /* header nav styles end  */
 
 
@@ -202,7 +243,9 @@ h2.middle-line::after {
 .project {
     height: 450px;
 }
-
+p.date{
+    font-family: Roboto, sans-serif;
+}
 h3,
 h2 {
     font-family: ge-dinar-2-medium, sans-serif;
@@ -274,6 +317,16 @@ footer .nav-link{
         color: #ffffff;
     }
 /* footer styles end  */
+/* about page style start  */
+#president-msj-sec p.signature{
+    font-family: bshekari, sans-serif;
+    font-size: 50px;
+}
+#president-msj-sec p{
+    font-size: .9rem;
+            }
+/* about page style end  */
+
 /* media queries start  */
 
 @media(max-width:1024px) {
