@@ -21,41 +21,39 @@
 
 <body>
     <!-- header section start  -->
-    <div class="container"> <!-- container start -->
+    <div class="container">
+        <!-- container start -->
         <header>
             <!-- upper bar start  -->
-            <div class="row h-100 justify-content-between" id="upper-bar">
-                <div class="col-2 p-3">
-                    <a class="" href="index.php"><img src="assets/pictures/logo.png" class="img-fluid logo"
-                            alt="not found"></a>
+            <div class="row h-100 justify-content-md-between justify-content-center" id="upper-bar">
+                <div class="col-sm-2 col-5 p-3">
+                    <a class="" href="index.php"><img src="assets/pictures/logo.png" class="img-fluid logo" alt="not found"></a>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
 
-                    <div class="row position-absolute b-0">
-                        <div class="col">
-                            <ul class="nav justify-content-md-end justify-content-center align-items-center">
-                                <li class="nav-item d-none d-sm-block">
-                                    <a href="contact.php" class="nav-link">
-                                        إتصل بنا
-                                    </a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a href="#" class="nav-link social-icon">
-                                        <i class="fas fa-envelope"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a href="#" class="nav-link social-icon">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a href="#" class="nav-link social-icon">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="container position-md-absolute b-0 l-0">
+                        <ul class="list-unstyled d-flex justify-content-md-end justify-content-center align-items-center">
+                            <li class="nav-item d-none d-sm-block">
+                                <a href="contact.php" class="nav-link">
+                                    إتصل بنا
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link social-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="#" class="nav-link social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -65,16 +63,13 @@
                 <div class="row">
                     <div class="col">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="index.php">الصفحة الرئيسيّة <span
-                                                class="sr-only">(current)</span></a>
+                                        <a class="nav-link" href="index.php">الصفحة الرئيسيّة <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">الإتحاد</a>
@@ -96,8 +91,7 @@
                                     </li>
                                 </ul>
                                 <form class="form-inline my-2 my-lg-0">
-                                    <input class="form-control mr-sm-2" type="search" placeholder="البحث"
-                                        aria-label="Search">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="البحث" aria-label="Search">
                                     <button class="btn" type="submit"><i class="fa fa-search"></i></button>
                                 </form>
                             </div>
@@ -255,6 +249,11 @@
         <!-- header banner end  -->
         <!-- page content start  -->
         <!-- projects section start  -->
+        <style>
+            #projects p.date{
+                font-family: 'Roboto', sans-serif;
+            }
+        </style>
         <section id="projects">
             <div class="container">
                 <div class="row">
@@ -278,7 +277,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="container">
-                                    <p>09-10-2020</p>
+                                    <p class="date">09-10-2020</p>
                                     <h3>افتتاح معمل التصنيع الغذائي وغرف التبريد في جزين...</h3>
                                 </div>
 
@@ -303,7 +302,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="container">
-                                    <p>09-10-2020</p>
+                                    <p class="date">09-10-2020</p>
                                     <h3>افتتاح معمل التصنيع الغذائي وغرف التبريد في جزين...</h3>
                                 </div>
 
@@ -328,7 +327,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="container">
-                                    <p>09-10-2020</p>
+                                    <p class="date">09-10-2020</p>
                                     <h3>افتتاح معمل التصنيع الغذائي وغرف التبريد في جزين...</h3>
                                 </div>
 
@@ -395,11 +394,8 @@
         <!-- footer start  -->
 
         <!-- footer end  -->
-
     </div><!-- container end -->
     <!-- img gallery section start  -->
-    <style>
-    </style>
     <section id="img-gallery" class="bg-light-gray mt-md-5 mt-2 p-md-5 p-2">
         <div class="container">
             <h2 class="middle-line">
@@ -414,7 +410,9 @@
         </div>
     </section>
     <!-- img gallery section end  -->
+
     <div class="container">
+        <!-- subscribe section start  -->
         <section id="subscribe-sec" class="mt-md-5 mt-2">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -465,20 +463,14 @@
                 </div>
             </div>
         </section>
+        <!-- subscribe section end  -->
     </div>
-    <style>
-        #contact-info .social-icon{
-            background-color: #049bd9 !important; 
-        }
-    </style>
+    <!-- contact info sec start  -->
     <section id="contact-info" class="bg-light-gray mt-md-5 mt-2 py-md-4 py-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6648.735080330903!2d35.37598012687687!3d33.56980522603886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ef005e44bcdb3%3A0x31a240c3310deb5e!2sMido&#39;s%20Sandwiches!5e0!3m2!1sen!2slb!4v1608623899864!5m2!1sen!2slb"
-                        width="600" height="450" frameborder="0" style="border:0;width:100%; max-height:400px;" allowfullscreen=""
-                        aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6648.735080330903!2d35.37598012687687!3d33.56980522603886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ef005e44bcdb3%3A0x31a240c3310deb5e!2sMido&#39;s%20Sandwiches!5e0!3m2!1sen!2slb!4v1608623899864!5m2!1sen!2slb" width="600" height="450" frameborder="0" style="border:0;width:100%; max-height:400px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="col-md-6">
                     <div class="row h-100">
@@ -492,23 +484,61 @@
                                     00961 </a>
                                 <a href="#" class="d-flex m-2">
                                     <span class="social-icon  ml-1">
-                                    <i class="fas fa-envelope"></i>
+                                        <i class="fas fa-envelope"></i>
                                     </span> البريد الالكتروني :
                                     info@jezzine-union.com</a>
-                                
+
                                 <a href="#" class="d-flex m-2">
                                     <span class="social-icon  ml-1">
-                                    <i class="fas fa-map-marker-alt"></i>
+                                        <i class="fas fa-map-marker-alt"></i>
                                     </span> العنوان : جزين -
                                     لبنان</a>
                             </div>
                         </div>
-                   </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    
+    <!-- contact info section end  -->
+    <!-- footer start  -->
+    <footer class="bg-gray mt-md-5 mt-2">
+        <!-- footer links start  -->
+        <ul class="d-md-flex justify-content-md-arround justify-content-center list-unstyled py-md-5 py-2 m-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.php">الصفحة الرئيسيّة <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">الإتحاد</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">المشاريع</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">النشاطات والأخبار</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">خدمة المواطنين</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">إكتشف المنطقة</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">الدليل</a>
+            </li>
+        </ul>
+        <hr>
+        <!-- footer links end  -->
+        <!-- copyright section start   -->
+        <div class="row justify-content-center" id="copyright-sec">
+            <div class="col-md-6">
+                <p class="text-center">Copyright  Jezzine Union 2020 ©. All Rights Reserved</p>
+                <p class="text-center">by Dow Group</p>
+            </div>
+        </div>
+        <!-- copyright section end   -->
+    </footer>
+    <!-- footer end  -->
 </body>
 
 </html>

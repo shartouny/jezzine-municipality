@@ -104,7 +104,14 @@ p,
     color: #58595b;
     font-size: 1rem;
 }
-
+@media (min-width: 768px) { 
+    .position-md-absolute{
+        position: absolute;
+    }
+ }
+ ul.list-unstyled{
+     padding-inline-start: 0;
+ }
 
 /* general styles end  */
 
@@ -248,8 +255,25 @@ h2 {
 
 
 /* subscribe section styles end  */
+/* contact sec styles start  */
+#contact-info .social-icon {
+    background-color: #049bd9 !important;
+}
+/* contact sec styles end  */
 
-
+/* footer styles start  */
+.bg-gray {
+    background-color: #939598;
+}
+footer .nav-link{
+    color: #ffffff;
+    font-family: din-next-lt-regular, sans-serif;
+}
+    #copyright-sec p{
+        font-family: cairo-light, sans-serif;
+        color: #ffffff;
+    }
+/* footer styles end  */
 /* media queries start  */
 
 @media(max-width:1024px) {
