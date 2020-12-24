@@ -89,7 +89,9 @@ a:hover {
 .z-2 {
     z-index: 2;
 }
-
+.rtl{
+    direction: rtl;
+}
 .bg-shadow-dark {
     background: rgba(76, 76, 76, 0);
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.51) 49%, rgba(0, 0, 0, 0.5) 100%);
@@ -114,7 +116,7 @@ p,
     .position-md-absolute{
         position: absolute;
     }
- }
+}
  ul.list-unstyled{
      padding-inline-start: 0;
  }
@@ -156,9 +158,8 @@ header nav .dropdown-toggle {
     position: relative;
 }
 
-header nav .dropdown-toggle::after {
+header nav .dropdown>span .dropdown-toggle::after {
     display: none;
-    /* margin-left: .255em; */
     vertical-align: .255em;
     content: "";
     border-top: .3em solid #00a2d8;
@@ -173,13 +174,21 @@ header nav .dropdown-toggle::after {
 
 header nav .dropdown {
     position: initial;
+    
 }
 
-header nav .nav-item.active .dropdown-toggle:after {
+header nav .dropdown>span.show .dropdown-toggle::after {
     display: block;
 }
 
-.nav-item.active a{
+header nav .dropdown-menu{
+    background-color:transparent; 
+    background-clip: padding-box;
+    border: none;
+}
+
+.nav-item.active a,
+header nav .dropdown>span.show a{
     border-bottom: 2px solid #00a2d8;
 }
 .dropdown .dropdown-menu .nav-link{
@@ -187,6 +196,9 @@ header nav .nav-item.active .dropdown-toggle:after {
 }
 .dropdown .dropdown-menu .nav-link.active{
     color: #00a2d8;
+}
+.dropdown-menu{
+    top: auto;
 }
 /* header nav styles end  */
 
@@ -274,7 +286,11 @@ h2 {
 
 
 /* overview styles end  */
-
+/* members styles start  */
+#counsler-members-sec p{
+    margin: 1rem 0 1rem 0 ;
+}
+/* members styles end  */
 
 /* subscribe section styles start  */
 
@@ -326,7 +342,57 @@ footer .nav-link{
     font-size: .9rem;
             }
 /* about page style end  */
+/* services page style start  */
 
+#services-tbl .container>.row>div{
+    background-color: #e3e3e3;
+}
+#services-tbl a{
+    color: red;
+}
+#services-tbl a>img{
+    max-height: 40px;
+}
+#services-tbl .container>.row:nth-child(even)>div{
+    background-color: #f6f6f6;
+}
+/* services page style end  */
+/* news and projects styles start  */
+#news-slider .carousel-indicators {
+    position: initial;
+}
+
+.carousel-indicators li.active {
+    background-color: #d9393f;
+}
+
+.carousel-indicators li {
+    background-color: #aeaeae;
+}
+
+/* #news-slider .carousel-item p+.position-absolute{
+    margin: 20px;
+    padding: 0 15px;
+    width: 100%;
+} */
+.text-justify {
+    text-align: justify;
+}
+
+h2.mini {
+    font-size: 1.8rem;
+}
+nav>ul.pagination li.active .page-link{
+        background-color: #a0a0a0;
+    }
+    nav>ul.pagination li{
+        background-color: #f6f6f6;
+        margin: 2px;
+    }
+    nav>ul.pagination li a{
+        border: none;
+    }
+/* news and projects styles end  */
 /* media queries start  */
 
 @media(max-width:1024px) {

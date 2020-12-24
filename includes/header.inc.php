@@ -99,10 +99,10 @@
                                         <a class="nav-link" href="#">المشاريع</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">النشاطات والأخبار</a>
+                                        <a class="nav-link" href="news.php">النشاطات والأخبار</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">خدمة المواطنين</a>
+                                        <a class="nav-link" href="services.php">خدمة المواطنين</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">إكتشف المنطقة</a>

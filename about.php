@@ -1,5 +1,5 @@
 <?php include 'includes/header.inc.php'; ?><!-- header-->
-<section id="president-msj-sec" class="bg-light-gray mt-md-5 mt-2 p-md-5 p-2">
+<section id="president-msj-sec" class="mt-md-5 mt-2 p-md-5 p-2">
     <div class="container">
         <h2 class="middle-line">
             <span class="text-right">رسالة الرئيس </span>

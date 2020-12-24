@@ -2,7 +2,7 @@
     <footer class="bg-gray mt-md-5 mt-2">
         <!-- footer links start  -->
         <ul class="d-md-flex justify-content-md-arround justify-content-center list-unstyled py-md-5 py-2 m-0">
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="index.php">الصفحة الرئيسيّة <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">

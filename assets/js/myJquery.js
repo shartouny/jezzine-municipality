@@ -16,11 +16,7 @@ $(document).ready(function() {
             }
         }
     });
-    $('.drop-button').click(function() {
-        if (!$('.nav-item.dropdown').hasClass('active')) {
-            $('.nav-item.dropdown').addClass('active');
-        } else {
-            $('.nav-item.dropdown').removeClass('active');
-        }
-    });
+    // $('.dropdown').hover(function(){
+    //     $(this).find(">span:first-child").toggleClass("show");
+    // });
 });

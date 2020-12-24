@@ -1,9 +1,5 @@
 <?php include 'includes/header.inc.php'; ?><!-- header-->
-<style>
-    #counsler-members-sec p{
-        margin: 1rem 0 1rem 0 ;
-    }
-</style>
+
 <section id="counsler-members-sec" class="mt-md-5 mt-2 p-md-5 p-2">
     <div class="container">
         <h2 class="middle-line">
