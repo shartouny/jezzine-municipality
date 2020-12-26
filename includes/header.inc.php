@@ -96,7 +96,7 @@
                                     </li>
                                     
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">المشاريع</a>
+                                        <a class="nav-link" href="projects.php">المشاريع</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="news.php">النشاطات والأخبار</a>
