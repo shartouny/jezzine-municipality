@@ -104,8 +104,21 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="services.php">خدمة المواطنين</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">إكتشف المنطقة</a>
+                                    <li class="nav-item dropdown">
+                                        <span>
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <span class="drop-button">إكتشف المنطقة</span>
+                                            </a>
+                                            <div class="dropdown-menu  w-100" aria-labelledby="navbarDropdown">
+                                                <div class="navbar-nav">
+                                                    <a class="px-3 px-md-2 nav-link active" href="general-overview.php">نظرة عامة عن المنطقة <span class="sr-only">(current)</span></a>
+                                                    <a class="px-3 px-md-2 nav-link" href="towns.php"> البلدات<span class="sr-only">(current)</span></a>
+                                                    <a class="px-3 px-md-2 nav-link" href="tourism.php">سياحة <span class="sr-only">(current)</span></a>
+                                                    <a class="px-3 px-md-2 nav-link" href="#">سياحة بيئية <span class="sr-only">(current)</span></a>
+                                                    <a class="px-3 px-md-2 nav-link" href="#"> الصناعة الحرفية الجزينية <span class="sr-only">(current)</span></a>
+                                                </div>
+                                            </div>
+                                        </span>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">الدليل</a>
