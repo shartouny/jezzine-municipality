@@ -246,7 +246,7 @@
             <section id="overview-sec" class="mt-md-5 mt-2">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="bg-light-gray">
+                        <div class="bg-light-gray h-100">
                             <div class="container">
                                 <h2 class="middle-line">
                                     <span class="text-right">نبذة عامة حول الإتحاد </span>
@@ -264,7 +264,7 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="bg-light-gray">
+                        <div class="bg-light-gray h-100">
                             <div class="container">
                                 <h2 class="middle-line">
                                     <span class="text-right">الرؤية والرسالة </span>

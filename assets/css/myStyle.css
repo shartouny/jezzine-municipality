@@ -53,7 +53,7 @@
 
 body {
     direction: rtl;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .owl-carousel {
@@ -121,7 +121,7 @@ p,
 #subscribe form input::placeholder {
     font-family: ge-dinar-2-medium, sans-serif;
     color: #58595b;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 @media (min-width: 768px) {
@@ -348,7 +348,7 @@ h2 {
 
 /* contact sec styles start  */
 
-#contact-info .social-icon {
+.social-icon.bg-primary {
     background-color: #049bd9 !important;
 }
 

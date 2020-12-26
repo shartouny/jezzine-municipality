@@ -11,18 +11,18 @@
                             <div class="p-md-5 p-2">
                                 <h3>إتّصل بنا</h3>
                                 <a href="#" class="d-flex m-2">
-                                    <span class="social-icon  ml-1">
+                                    <span class="social-icon bg-primary  ml-1">
                                         <i class="fas fa-phone-alt"></i>
                                     </span>الهاتف : 781333 7
                                     00961 </a>
                                 <a href="#" class="d-flex m-2">
-                                    <span class="social-icon  ml-1">
+                                    <span class="social-icon bg-primary  ml-1">
                                         <i class="fas fa-envelope"></i>
                                     </span> البريد الالكتروني :
                                     info@jezzine-union.com</a>
 
                                 <a href="#" class="d-flex m-2">
-                                    <span class="social-icon  ml-1">
+                                    <span class="social-icon bg-primary  ml-1">
                                         <i class="fas fa-map-marker-alt"></i>
                                     </span> العنوان : جزين -
                                     لبنان</a>

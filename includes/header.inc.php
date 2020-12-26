@@ -26,7 +26,7 @@
         <header>
             <!-- upper bar start  -->
             <div class="row h-100 justify-content-md-between justify-content-center" id="upper-bar">
-                <div class="col-sm-2 col-5 p-3">
+                <div class="col-auto p-3">
                     <a class="" href="index.php"><img src="assets/pictures/logo.png" class="img-fluid logo" alt="not found"></a>
                 </div>
                 <div class="col-sm-4">
